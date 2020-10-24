@@ -143,13 +143,23 @@ a{
 	 > * {
 		 margin-bottom: 16px;
 	 }
+	 @media (min-width: 576px) {
+	 &__text{
+		 width: rem(170);
+		 text-align: left;
+	 }
+	 }
 	 &__text--f{
 		 order: -1;
+		 @media (min-width: 576px) {
+
+			 text-align: right;
+			}
 	 }
 	 a{
 		 border-bottom: 1px solid;
 		 &:hover{
-			 border-color: transparent;
+			//  border-color: transparent;
 		 }
 	 }
  }
