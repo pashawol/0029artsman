@@ -10,16 +10,26 @@ block title
 	- let  title= 'title'
 	title= title
 block pagecontent
-	+mob-mnu()
-	+header()
 
-		+top-nav()
-		+topLine()
-	+headerBlock()
+	//- +mob-mnu()
+	//- +header()
+	//- +top-nav()
+	//- +topLine() 
+	//- +headerBlock()
+	//- +sForm()
+	//- +sContact()
+	//- +footer()
 
-	+sForm()
-	+sContact()
-	+footer()
-
-
+	+b.top-line
+		+pic("avatar",'',0)
+		+e.text 
+			a(href="mailto:michael@artsman.ru") michael@artsman.ru
+		+e.text--f Веб-дизайнер
+	+e.center
+		img.res-i(src="img/svg/offer.svg", alt="")
+	+b.footer
+		+e.link(href="http://t.me/arts_man")
+			+icon('telegram')
+		+e.link(href="https://www.behance.net/ishmetov")
+			+icon('behance')
 	
