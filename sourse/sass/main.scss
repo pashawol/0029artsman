@@ -139,6 +139,12 @@ a{
 		 margin-left: rem(90);
 		 margin-right: rem(90);
 		 display: block;
+		 width: 45px;
+		 height: 45px;
+		 img{
+			 max-width: 100%;
+			 height: auto;
+		 }
 	 }
 	 > * {
 		 margin-bottom: 16px;
